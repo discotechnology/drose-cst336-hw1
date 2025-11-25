@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head.ejs') %>
+<body>
+    <%- include('partials/header.ejs') %>
+    <hr>
+    <main>
+        <div id="random">
+                <div><h3>I really could not come up with anything particularly interesting here, so heres a random question, answer, and duck picture.</h3></div><br><br>
+                <div><h3>Q: <%= question %></h3></div>
+                <div><h3><i>A: <%= answer %>!</i></h3></div>
+                <br>
+                <br>
+                <img src="<%= duckPic %>">
+        </div>
+    </main>
+    <%- include('partials/footer.ejs') %>
+</body>
+</html>
